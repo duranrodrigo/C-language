@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+int age, year;
+float height;
+char name[30];
+
+printf("Type your name: ");
+scanf("%s", name);
+printf("Type your age: ");
+scanf("%d", &age);
+printf("Type your height: ");
+scanf("%f", &height);
+/* when was born */
+year = 2023 - age;
+
+return (0);
+}
